@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/algorithm-design/static/css/main.75840cd7.chunk.css",
-    "main.js": "/algorithm-design/static/js/main.2e2a87b5.chunk.js",
-    "main.js.map": "/algorithm-design/static/js/main.2e2a87b5.chunk.js.map",
+    "main.css": "/algorithm-design/static/css/main.edc146ff.chunk.css",
+    "main.js": "/algorithm-design/static/js/main.86ba09b0.chunk.js",
+    "main.js.map": "/algorithm-design/static/js/main.86ba09b0.chunk.js.map",
     "runtime-main.js": "/algorithm-design/static/js/runtime-main.756e2310.js",
     "runtime-main.js.map": "/algorithm-design/static/js/runtime-main.756e2310.js.map",
-    "static/js/2.e08312ba.chunk.js": "/algorithm-design/static/js/2.e08312ba.chunk.js",
-    "static/js/2.e08312ba.chunk.js.map": "/algorithm-design/static/js/2.e08312ba.chunk.js.map",
+    "static/js/2.1fbfe03d.chunk.js": "/algorithm-design/static/js/2.1fbfe03d.chunk.js",
+    "static/js/2.1fbfe03d.chunk.js.map": "/algorithm-design/static/js/2.1fbfe03d.chunk.js.map",
     "index.html": "/algorithm-design/index.html",
-    "precache-manifest.c4e06866bc2338c9c433b1b5113786c7.js": "/algorithm-design/precache-manifest.c4e06866bc2338c9c433b1b5113786c7.js",
+    "precache-manifest.f229668717568778e45168c8c4ebe410.js": "/algorithm-design/precache-manifest.f229668717568778e45168c8c4ebe410.js",
     "service-worker.js": "/algorithm-design/service-worker.js",
-    "static/css/main.75840cd7.chunk.css.map": "/algorithm-design/static/css/main.75840cd7.chunk.css.map",
-    "static/js/2.e08312ba.chunk.js.LICENSE.txt": "/algorithm-design/static/js/2.e08312ba.chunk.js.LICENSE.txt",
+    "static/css/main.edc146ff.chunk.css.map": "/algorithm-design/static/css/main.edc146ff.chunk.css.map",
+    "static/js/2.1fbfe03d.chunk.js.LICENSE.txt": "/algorithm-design/static/js/2.1fbfe03d.chunk.js.LICENSE.txt",
     "static/media/createStudsMarksArr.png": "/algorithm-design/static/media/createStudsMarksArr.832cef01.png",
     "static/media/fifthHighestMark.png": "/algorithm-design/static/media/fifthHighestMark.bd3d4aa7.png",
     "static/media/getRandomMark.png": "/algorithm-design/static/media/getRandomMark.412e8ce7.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.756e2310.js",
-    "static/js/2.e08312ba.chunk.js",
-    "static/css/main.75840cd7.chunk.css",
-    "static/js/main.2e2a87b5.chunk.js"
+    "static/js/2.1fbfe03d.chunk.js",
+    "static/css/main.edc146ff.chunk.css",
+    "static/js/main.86ba09b0.chunk.js"
   ]
 }
