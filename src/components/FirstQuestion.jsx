@@ -14,7 +14,7 @@ export default class FirstQuestion extends Component {
     students: [],
     lowestMark: null,
 
-    activeTable: true,
+    activeTable: false,
     activeNameAsc: false,
     activeNameDesc: false,
     activeMarkAsc: false,
@@ -31,6 +31,7 @@ export default class FirstQuestion extends Component {
     if (localStorage.getItem("students")) {
       this.setState({
         students: JSON.parse(localStorage.getItem("students")),
+        activeTable: true,
       });
     }
   };
