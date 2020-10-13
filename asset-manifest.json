@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/algorithm-design/static/css/main.347f30ba.chunk.css",
+    "main.js": "/algorithm-design/static/js/main.baf64a2f.chunk.js",
+    "main.js.map": "/algorithm-design/static/js/main.baf64a2f.chunk.js.map",
+    "runtime-main.js": "/algorithm-design/static/js/runtime-main.756e2310.js",
+    "runtime-main.js.map": "/algorithm-design/static/js/runtime-main.756e2310.js.map",
+    "static/js/2.a2396fb6.chunk.js": "/algorithm-design/static/js/2.a2396fb6.chunk.js",
+    "static/js/2.a2396fb6.chunk.js.map": "/algorithm-design/static/js/2.a2396fb6.chunk.js.map",
+    "index.html": "/algorithm-design/index.html",
+    "precache-manifest.f8e5882ff7c1d070e8b05439185a207c.js": "/algorithm-design/precache-manifest.f8e5882ff7c1d070e8b05439185a207c.js",
+    "service-worker.js": "/algorithm-design/service-worker.js",
+    "static/css/main.347f30ba.chunk.css.map": "/algorithm-design/static/css/main.347f30ba.chunk.css.map",
+    "static/js/2.a2396fb6.chunk.js.LICENSE.txt": "/algorithm-design/static/js/2.a2396fb6.chunk.js.LICENSE.txt",
+    "static/media/createStudsMarksArr.png": "/algorithm-design/static/media/createStudsMarksArr.832cef01.png",
+    "static/media/fifthHighestMark.png": "/algorithm-design/static/media/fifthHighestMark.9680d4a4.png",
+    "static/media/getRandomMark.png": "/algorithm-design/static/media/getRandomMark.412e8ce7.png",
+    "static/media/getRandomName.png": "/algorithm-design/static/media/getRandomName.6adb77a7.png",
+    "static/media/highestMarks.png": "/algorithm-design/static/media/highestMarks.f392c115.png",
+    "static/media/lowestMarks.png": "/algorithm-design/static/media/lowestMarks.5c0446c0.png",
+    "static/media/markAsc.png": "/algorithm-design/static/media/markAsc.27e3b25e.png",
+    "static/media/markDesc.png": "/algorithm-design/static/media/markDesc.53588bcf.png",
+    "static/media/name-A-Z.png": "/algorithm-design/static/media/name-A-Z.310a8710.png",
+    "static/media/nameAsc.png": "/algorithm-design/static/media/nameAsc.a8165290.png",
+    "static/media/nameDesc.png": "/algorithm-design/static/media/nameDesc.89d1d7dc.png",
+    "static/media/nameEndsWithL.png": "/algorithm-design/static/media/nameEndsWithL.8728fae2.png",
+    "static/media/nameStartWithS.png": "/algorithm-design/static/media/nameStartWithS.9df45b27.png",
+    "static/media/tenthLowestMark.png": "/algorithm-design/static/media/tenthLowestMark.530c39ea.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.756e2310.js",
+    "static/js/2.a2396fb6.chunk.js",
+    "static/css/main.347f30ba.chunk.css",
+    "static/js/main.baf64a2f.chunk.js"
+  ]
+}
