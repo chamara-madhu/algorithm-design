@@ -1,0 +1,48 @@
+.container-fluid {
+  background: #cacaca;
+  min-height: 100vh;
+}
+
+.cus-container {
+  max-width: 1280px;
+  padding: 5%;
+  background: #fff;
+}
+
+.col_filter {
+  width: 250px;
+  border-right: 1px solid #ccc;
+}
+
+.col_content {
+  width: calc(100% - 250px);
+}
+
+.col_output {
+  width: 40%;
+  padding: 25px;
+}
+
+.col_output table {
+  text-transform: capitalize;
+}
+
+.col_output table tr td {
+  width: 33%;
+}
+
+.col_code {
+  width: 60%;
+  padding: 25px;
+  background: #f3f3f3;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.col_code img {
+  width: 100%;
+  margin-bottom: 15px;
+}

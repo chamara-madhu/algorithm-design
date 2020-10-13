@@ -1,0 +1,35 @@
+.create_banner {
+  padding: 5%;
+  background: #29303a;
+}
+
+.create_banner .heading {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.create_banner input {
+  display: block;
+  margin: auto;
+  border: 1px solid;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.create_banner button {
+  display: block;
+  margin: auto;
+  border: 0;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background: #fccd12;
+  color: #000;
+  margin-top: 15px;
+}
+
+.create_banner input:focus,
+.create_banner button:focus {
+  outline: 0;
+}

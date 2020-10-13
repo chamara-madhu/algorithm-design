@@ -1,0 +1,16 @@
+.col_filter .list-group {
+  border-radius: 0;
+}
+
+.col_filter ul li {
+  cursor: pointer;
+  border-right: 0;
+}
+
+.col_filter ul li:hover {
+  background: #ffeca2;
+}
+
+.col_filter .active-filter {
+  background: #d0992e;
+}
