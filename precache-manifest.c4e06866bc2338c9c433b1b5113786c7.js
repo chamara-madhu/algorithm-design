@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a58ba44300e8f83ddff43f42494ce75",
+    "revision": "c545991faffa7a2d438bc0bce2379f09",
     "url": "/algorithm-design/index.html"
   },
   {
-    "revision": "cc9eac52e9b772ab8c38",
-    "url": "/algorithm-design/static/css/main.347f30ba.chunk.css"
+    "revision": "e78e4e2da1b7b53d7bbe",
+    "url": "/algorithm-design/static/css/main.75840cd7.chunk.css"
   },
   {
-    "revision": "1bf9d33232494fb9d19d",
-    "url": "/algorithm-design/static/js/2.a2396fb6.chunk.js"
+    "revision": "dca392869aec21f2627e",
+    "url": "/algorithm-design/static/js/2.e08312ba.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/algorithm-design/static/js/2.a2396fb6.chunk.js.LICENSE.txt"
+    "url": "/algorithm-design/static/js/2.e08312ba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc9eac52e9b772ab8c38",
-    "url": "/algorithm-design/static/js/main.baf64a2f.chunk.js"
+    "revision": "e78e4e2da1b7b53d7bbe",
+    "url": "/algorithm-design/static/js/main.2e2a87b5.chunk.js"
   },
   {
     "revision": "db831a901fda78781e9b",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/algorithm-design/static/media/createStudsMarksArr.832cef01.png"
   },
   {
-    "revision": "9680d4a45a5508c35ec33b9230dc6cda",
-    "url": "/algorithm-design/static/media/fifthHighestMark.9680d4a4.png"
+    "revision": "bd3d4aa70a0b1447ee6871f055e37e6a",
+    "url": "/algorithm-design/static/media/fifthHighestMark.bd3d4aa7.png"
   },
   {
     "revision": "412e8ce7b8ac2a562232ccd468fad24c",
@@ -54,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53588bcfee9a88b27a82fa935b33067b",
     "url": "/algorithm-design/static/media/markDesc.53588bcf.png"
-  },
-  {
-    "revision": "310a8710d1fdbfc13e055d1f37d54283",
-    "url": "/algorithm-design/static/media/name-A-Z.310a8710.png"
   },
   {
     "revision": "a8165290789fc96d1557af970e2dab3b",
