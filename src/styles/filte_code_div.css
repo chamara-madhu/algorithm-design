@@ -1,0 +1,22 @@
+.filte_code_div {
+  display: none;
+  padding: 15px !important;
+}
+
+.filte_code_div .code_btn {
+  text-align: right;
+  display: block;
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .filte_code_div {
+    display: block;
+  }
+}
+
+@media (min-width: 576px) {
+  .filte_code_div .code_btn {
+    display: none;
+  }
+}

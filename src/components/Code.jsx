@@ -14,8 +14,6 @@ import tenthLowestMark from "../images/tenthLowestMark.png";
 import nameStartWithS from "../images/nameStartWithS.png";
 import nameEndsWithL from "../images/nameEndsWithL.png";
 
-import nameAZ from "../images/name-A-Z.png";
-
 export default class Code extends Component {
   render() {
     return (
@@ -23,17 +21,12 @@ export default class Code extends Component {
         <p className="heading">Code</p>
         {this.props.activeTable && (
           <React.Fragment>
-            <img src={createStudsMarksArr} alt="createStudsMarksArr" />
             <img src={getRandomName} alt="getRandomName" />
             <img src={getRandomMark} alt="getRandomMark" />
+            <img src={createStudsMarksArr} alt="createStudsMarksArr" />
           </React.Fragment>
         )}
-        {this.props.activeNameAsc && (
-          <React.Fragment>
-            <img src={nameAsc} alt="nameAsc" />
-            <img src={nameAZ} alt="nameAZ" />
-          </React.Fragment>
-        )}
+        {this.props.activeNameAsc && <img src={nameAsc} alt="nameAsc" />}
         {this.props.activeNameDesc && <img src={nameDesc} alt="nameDesc" />}
         {this.props.activeMarkAsc && <img src={markAsc} alt="markAsc" />}
         {this.props.activeMarkDesc && <img src={markDesc} alt="markDesc" />}

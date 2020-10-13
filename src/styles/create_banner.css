@@ -29,7 +29,21 @@
   margin-top: 15px;
 }
 
+.create_banner button:hover {
+  padding: 10px 30px;
+}
+
 .create_banner input:focus,
 .create_banner button:focus {
   outline: 0;
+}
+
+@media (max-width: 575px) {
+  .create_banner .heading {
+    font-size: 25px;
+  }
+
+  .create_banner input {
+    width: 250px;
+  }
 }

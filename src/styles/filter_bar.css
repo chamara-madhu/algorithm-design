@@ -1,16 +1,32 @@
-.col_filter .list-group {
+.col_filter .list-group,
+.col_filter_mobi .list-group {
   border-radius: 0;
 }
 
-.col_filter ul li {
+.col_filter ul li,
+.col_filter_mobi ul li {
   cursor: pointer;
   border-right: 0;
 }
 
-.col_filter ul li:hover {
-  background: #ffeca2;
+.col_filter ul li:hover,
+.col_filter_mobi ul li:hover {
+  background: #e9e9e9;
 }
 
-.col_filter .active-filter {
-  background: #d0992e;
+.col_filter .active-filter,
+.col_filter_mobi .active-filter {
+  background: #cca326;
+  color: #fff;
+}
+
+.col_filter .active-filter:hover,
+.col_filter_mobi .active-filter:hover {
+  background: #cca326;
+}
+
+@media (max-width: 768px) {
+  .col_filter_mobi {
+    width: 250px;
+  }
 }

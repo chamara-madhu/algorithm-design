@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
-import "../styles/common.css";
-
 import FilterBar from "./FilterBar";
 import CreateStudInput from "./CreateStudInput";
 import Output from "./Output";
 import Code from "./Code";
+import FilterCodeDiv from "./FilterCodeDiv";
+
+import "../styles/common.css";
 
 export default class FirstQuestion extends Component {
   state = {
@@ -24,6 +25,14 @@ export default class FirstQuestion extends Component {
     activeTenthLowestMark: false,
     activeNameStartWithS: false,
     activeNameEndsWithL: false,
+  };
+
+  componentDidMount = () => {
+    if (localStorage.getItem("students")) {
+      this.setState({
+        students: JSON.parse(localStorage.getItem("students")),
+      });
+    }
   };
 
   handleNoOfStud = (e) => {
@@ -47,7 +56,21 @@ export default class FirstQuestion extends Component {
       }
 
       // update react student state
-      this.setState({ students: data });
+      this.setState({
+        students: data,
+        noOfStud: "",
+        activeTable: true,
+        activeNameAsc: false,
+        activeNameDesc: false,
+        activeMarkAsc: false,
+        activeMarkDesc: false,
+        activeHighestMarks: false,
+        activeLowestMarks: false,
+        activeFifthHighestMark: false,
+        activeTenthLowestMark: false,
+        activeNameStartWithS: false,
+        activeNameEndsWithL: false,
+      });
 
       // store in local storage
       localStorage.setItem("students", JSON.stringify(data));
@@ -136,7 +159,6 @@ export default class FirstQuestion extends Component {
     // update react students state
     this.setState({
       students: nameDesc,
-      activeTable: false,
       activeTable: false,
       activeNameAsc: false,
       activeNameDesc: true,
@@ -400,7 +422,7 @@ export default class FirstQuestion extends Component {
 
   render() {
     return (
-      <div className="container-fluid px-0 py-5">
+      <div className="container-fluid px-0 px-sm-3 py-0 py-sm-3 py-md-5">
         <div className="container cus-container p-0">
           <div className="row m-0">
             <FilterBar
@@ -431,6 +453,31 @@ export default class FirstQuestion extends Component {
                 handleNoOfStud={this.handleNoOfStud}
                 createStudsMarksArr={this.createStudsMarksArr}
               />
+
+              <FilterCodeDiv
+                nameAsc={this.nameAsc}
+                nameDesc={this.nameDesc}
+                markAsc={this.markAsc}
+                markDesc={this.markDesc}
+                highestMarks={this.highestMarks}
+                lowestMarks={this.lowestMarks}
+                fifthHighestMark={this.fifthHighestMark}
+                tenthLowestMark={this.tenthLowestMark}
+                nameStartWithS={this.nameStartWithS}
+                nameEndsWithL={this.nameEndsWithL}
+                activeTable={this.state.activeTable}
+                activeNameAsc={this.state.activeNameAsc}
+                activeNameDesc={this.state.activeNameDesc}
+                activeMarkAsc={this.state.activeMarkAsc}
+                activeMarkDesc={this.state.activeMarkDesc}
+                activeHighestMarks={this.state.activeHighestMarks}
+                activeLowestMarks={this.state.activeLowestMarks}
+                activeFifthHighestMark={this.state.activeFifthHighestMark}
+                activeTenthLowestMark={this.state.activeTenthLowestMark}
+                activeNameStartWithS={this.state.activeNameStartWithS}
+                activeNameEndsWithL={this.state.activeNameEndsWithL}
+              />
+
               <div className="row m-0">
                 <Output students={this.state.students} />
                 <Code
